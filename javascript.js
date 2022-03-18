@@ -1,5 +1,4 @@
-// kui tavalised sulud () on mingi sõna järgi, siis see tähendab funktsiooni
-// ülejäänud juhud on tehete jaoks
+
 
 console.log ("töötab")
 
@@ -51,24 +50,3 @@ document.getElementById("tyhjenda").addEventListener("click", ()=> {
 } )
 
 
-
-
-// viimane indeks on =
-//-------- items.splice (items.lenght-1)
-// ------- items [0] = "muudetud ese"
-
-//muud viimane ese: HTMLi nupp
-// tee copy-paste funktsioonist
-//------ items [items.lenght-1] = "viimane ese"
-
-//muud viimane ese: HTMLi nupp - tyhjenda
-// tee copy-paste funktsioonist
-//------ items [items.lenght-1] = "viimane ese"
-
-// kui liidetakse string ja number, on tüübiks string
-// kui liidetakse "raud" plus "tee" = raudtee
-// kui liidetakse 3 plus t = 10
-// kui liidetakse "32" plus 77 = "3277"
-
-// liideti "ese" plus 3 = "ese3"
-// liideti "ese3" plus 1 = "ese31"
